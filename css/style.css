@@ -28,7 +28,7 @@ ________
     border-style: dashed;
 } */
 
-.debug .col-blue{
+/* .debug .col-blue{
     background-color: #1e90ff;
     border-style: dashed;
     
@@ -37,7 +37,7 @@ ________
 .debug .col-pink{
     background-color: #ffc0cb;
     border-style: dashed;
-}
+} */
 
 .debug .col-green{
     background-color: #228b22;
@@ -129,7 +129,7 @@ ul{
     text-align: center;
 }
 
-.col-purple{
+.col-header{
     min-height: 400px;
     width: 900px;
 
@@ -170,6 +170,12 @@ h1{
     color: white;
 }
 
+/*
+________
+header
+________
+*/
+
 .sfondo-pari, .sfondo-dispari{
     display: flex;
     justify-content: center;
@@ -192,9 +198,20 @@ h1{
 .col-pink{
     min-height: 500px;
     width: 480px;
-
+    text-align: center;
+    padding: 80px 10px;
 }
 
+h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.paragrafo-main{
+   font-size: 20px;
+   margin-top: 25px;
+   line-height: 30px;
+}
 
 .sfondo-main{
     background-color:#d3d3d3;
