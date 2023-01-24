@@ -12,55 +12,6 @@ ________
 }
 
 /*
-________
-debug
-________
-*/
-
-/* .debug .logo, ul, .login{
-    background-color: #daa520;
-    border-style: dashed;
-
-} */
-
-/* .debug .col-purple{
-    background-color: #ee82ee;
-    border-style: dashed;
-} */
-
-/* .debug .col-blue{
-    background-color: #1e90ff;
-    border-style: dashed;
-    
-}
-
-.debug .col-pink{
-    background-color: #ffc0cb;
-    border-style: dashed;
-} */
-/* 
-.debug .col-green{
-    background-color: #228b22;
-    border-style: dashed;
-} */
-
-.debug .col-1{
-    background-color: #f08080;
-    border-style: dashed;
-}
-
-
-.debug .col-2,.col-3,.col-4,.col-5{
-   background-color: #20b2aa;
-   border-style: dashed;
-}
-
-footer .footer-bottom{
-    background-color: #7fffd4;
-    height: 80px;
-}
-
-/*
 ****
 Common
 ****
@@ -259,23 +210,62 @@ footer {
 footer .footer-top {
     display: flex;
     padding: 10px 0;
-    height: 600px; /* height demo per align items stretch */
     margin-bottom: 20px;
 }
 
 footer .footer-top .main-column {
     flex-basis: 30%;
-    background-color: #f08080;
 }
 
+h3{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    line-height: 55px;
+    color: rgb(88, 101, 242);
+    margin-bottom: 20px;
+}
+
+.flag{
+    height: 16px;
+    margin-right: 10px;
+}
+
+.lingua{
+color: white;
+margin-bottom: 20px;
+}
+
+.social{
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+}
 footer .footer-top .menu-column {
     flex-basis: 70%;
-    background-color: #20b2aa;
     display: flex;
     justify-content: space-between;
 }
 
+.col{
+   display: flex;
+   flex-direction: column;
+}
 
+h5{
+    font-size: 16px;
+    margin-top: 40px;
+    color:rgb(88, 101, 242);
+}
+
+a{
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    border-color: rgb(88, 101, 242);
+}
 footer .footer-top .menu-column > .col {
     flex-basis: 25%;
 }
@@ -285,5 +275,15 @@ footer .footer-top .menu-column > .col {
   justify-content: space-between;
   padding: 30px 15px;
   margin-top: 20px;
+}
+
+.footer-button{
+    text-align: center;
+    color: white;
+    padding: 9px;
+    background-color: rgb(88, 101, 242);
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
 }
 
